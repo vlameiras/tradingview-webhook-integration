@@ -74,6 +74,7 @@ Docker and Docker Compose are required for this setup. Please refer to Docker's 
 3. Build the Docker image with the command `docker build -t your_docker_image_name .`.
 4. Run the Docker Compose setup with the command `docker-compose up`.
 
+Note: This needs to run on a machine with a static IP or use `ngrok`` so you can setup the TradingView webhook. For more details please refer to https://ngrok.com/docs/using-ngrok-with/docker/
 ## Usage
 
 After you've set up the bot, configure your TradingView alerts to send POST requests to `http://your_server_ip:8000/webhook` with the payload as per the `Item` model in `app.py`.
