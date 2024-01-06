@@ -13,7 +13,7 @@ load_dotenv()  # take environment variables from .env.
 # Initialize the Binance Client
 API_KEY = os.getenv("BINANCE_API_KEY")
 API_SECRET = os.getenv("BINANCE_API_SECRET")
-TESTNET = os.getenv("BINANCE_TESTNET", "False").lower() in ["true", "1"]
+TESTNET = os.getenv("BINANCE_TESTNET", "True").lower() in ["true", "1"]
 
 FIX_USDT_AMOUNT = float(os.getenv("FIX_USDT_AMOUNT", "250"))  # Default is 250
 LEVERAGE = int(os.getenv("LEVERAGE", "1"))  # Default leverage is 1
