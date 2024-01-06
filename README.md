@@ -5,7 +5,7 @@
 
 [![BuyMeACoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/vascolameiras)
 
-This is a multi-exchange trading bot that receives signals via a webhook from TradingView and performs trades. Currently, it is designed to work with the [imba-lance-algo](https://www.tradingview.com/script/xW8hYdbL-imba-lance-algo/) indicator on TradingView.
+This is a trading bot that receives signals via a webhook from TradingView and performs trades. Currently, it is designed to work with the [imba-lance-algo](https://www.tradingview.com/script/xW8hYdbL-imba-lance-algo/) indicator on TradingView and Binance Futures.
 
 Please note that this project is a work in progress, so use it at your own risk. I take no responsibility for issues or money lost while using it. This is distributed for educational purposes only.
 
