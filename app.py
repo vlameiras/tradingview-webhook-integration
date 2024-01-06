@@ -88,15 +88,6 @@ def wait_for_order_to_fill(client, symbol, order_id):
             raise Exception(f"Order was {order_status['status']}")
         time.sleep(0.1)  # 
 
-def calculate_prices(avg_price, params):
-    if params['side'] == SIDE_BUY:  # Long position
-        take_profit_price = avg_price * (1 + (params['take_profit_percentage'] / 100) / params['leverage'])
-        stop_loss_price = avg_price * (1 - (params['stop_loss_percentage'] / 100) / params['leverage'])
-    elif params['side'] == SIDE_SELL:  # Short position
-        take_profit_price = avg_price * (1 - (params['take_profit_percentage'] / 100) / params['leverage'])
-        stop_loss_price = avg_price * (1 + (params['stop_loss_percentage'] / 100) / params['leverage'])
-    return take_profit_price, stop_loss_price
-
 def place_orders(client, params, take_profit_price, stop_loss_price):
     # Check if there are any open orders for the symbol
     open_orders = client.futures_get_open_orders(symbol=params['symbol'])
