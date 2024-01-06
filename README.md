@@ -107,11 +107,11 @@ Your feedback and suggestions are highly valuable and contribute to further impr
 
 ## Donations
 
-If you find this project helpful and would like to support my work, donations of any size are greatly appreciated. You can send any cryptocurrency of your choice to the following address:
+If you find this project helpful and would like to support my work, donations of any size are greatly appreciated. You can send any cryptocurrencies of your choice such as ERC-20 (e.g. ETH, USDC) or BEP-20 (e.g. BNB).
 
-```
-0xA1D7252E3E27C10DACacb8e4a84A0306d8E3f052
-```
+ERC-20/BEP-20: `0xA1D7252E3E27C10DACacb8e4a84A0306d8E3f052`
+
+Bitcoin: `33L8xQy4Bnhw86upyMFvyKKfaFKxn3WCFB`
 
 Alternatively, consider buying me a coffee on [BuyMeACoffee](https://www.buymeacoffee.com/vascolameiras). Your generosity and support contribute to the continued development and improvement of this project.
 
