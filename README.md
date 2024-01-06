@@ -98,11 +98,6 @@ curl -X POST "http://localhost:8000/webhook" \
   \"stop\": \"0.04128\"
 }"
 ```
-Sure, you can add that information to the "Planned Features" section like so:
-
-```markdown
-```
-# TradingView Webhook Integration
 
 ## Planned Features
 
