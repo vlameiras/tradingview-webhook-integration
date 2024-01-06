@@ -98,6 +98,22 @@ curl -X POST "http://localhost:8000/webhook" \
   \"stop\": \"0.04128\"
 }"
 ```
+Sure, you can add that information to the "Planned Features" section like so:
+
+```markdown
+```
+# TradingView Webhook Integration
+
+## Planned Features
+
+- **Telegram integration**: Receive signals and order activity updates directly in your Telegram.
+- **More exchanges and markets integrated**
+- **Semi-automation via Telegram or UI**: With one click, you will be able to approve or disapprove a signal. Giving you more control
+- **Trading Journal**: Keep track of all your signals/trades outcomes
+- **Live Dashboard**: A live dashboard where users can track their trades in real-time, view profit/loss, and monitor other relevant statistics.
+- **Integration with TradingView technicals**
+
+Please note that some of these new features may be available under a subscription or a one-time fee. This is to support the continued development and improvement of these advanced features.
 
 ## Custom Development Requests
 
