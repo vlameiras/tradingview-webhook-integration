@@ -20,6 +20,7 @@ Please note that this project is a work in progress, so use it at your own risk.
 
 ## Existing Limitations
 
+- Only TP1 and STOP orders are being created. WIP for TP2, TP3 and TP4 
 - Currently, it only works with Binance.
 - It can work with any markets (not just futures), but custom development is needed to support other markets.
 - Tests should initially be made on the Binance Testnet (`BINANCE_TESTNET=True`). An account and API key should be created at [Binance Testnet](https://testnet.binancefuture.com/en/futures/). Refer to [this guide](https://www.binance.com/en/support/faq/how-to-test-my-functions-on-binance-testnet-ab78f9a1b8824cf0a106b4229c76496d) for more details.
